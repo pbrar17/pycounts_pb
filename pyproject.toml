@@ -9,7 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.9"
 matplotlib = ">=3.8.4"
-myst-nb = "^1.0.0"
+myst_nb = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
 
@@ -19,7 +19,7 @@ pytest-cov = "^5.0.0"
 jupyter = "^1.0.0"
 sphinx-autoapi = "^3.0.0"
 sphinx-rtd-theme = "^2.0.0"
-myst-nb = {version = "^1.0.0", python = "^3.9"}
+myst_nb = {version = "^1.0.0", python = "^3.9"}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
